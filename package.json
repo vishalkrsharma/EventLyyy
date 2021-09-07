@@ -1,0 +1,25 @@
+{
+  "name": "evently",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "node-sass scss/main.scss css/style.css -w & live-server",
+    "compile-scss": "node-sass scss/main.scss css/style.css -w",
+    "live-server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkrsharma/EventLy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalkrsharma/EventLy/issues"
+  },
+  "homepage": "https://github.com/vishalkrsharma/EventLy#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
